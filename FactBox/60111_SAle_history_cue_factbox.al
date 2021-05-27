@@ -13,7 +13,7 @@ page 60101 "Sales History"
             {
                 ApplicationArea = All;
                 Caption = 'Customer No.';
-                ToolTip = 'Specifies the number of the customer. The field is either filled automatically from a defined number series, or you enter the number manually because you have enabled manual number entry in the number-series setup.';
+                ToolTip = 'Specifies the number of the customers. The field is either filled automatically from a defined number series, or you enter the number manually because you have enabled manual number entry in the number-series setup.';
 
                 trigger OnDrillDown()
                 begin
